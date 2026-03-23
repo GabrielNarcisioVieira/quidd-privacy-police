@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade – Quiddo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f9f9f9;
+      color: #222;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 48px 24px;
+      background: #fff;
+    }
+    h1 { font-size: 2rem; margin-bottom: 4px; color: #111; }
+    .subtitle { color: #666; font-size: 0.95rem; margin-bottom: 36px; }
+    h2 { font-size: 1.2rem; margin-top: 36px; margin-bottom: 10px; color: #111; border-left: 4px solid #7c3aed; padding-left: 12px; }
+    p { margin-bottom: 12px; }
+    ul { margin: 8px 0 12px 24px; }
+    ul li { margin-bottom: 6px; }
+    a { color: #7c3aed; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .lang-toggle { text-align: right; margin-bottom: 24px; }
+    .lang-toggle a { background: #7c3aed; color: #fff; padding: 6px 14px; border-radius: 6px; font-size: 0.85rem; }
+    footer { margin-top: 48px; border-top: 1px solid #eee; padding-top: 20px; font-size: 0.85rem; color: #888; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- ===== PORTUGUÊS ===== -->
+  <div id="pt">
+    <div class="lang-toggle"><a href="#en">View in English</a></div>
+
+    <h1>Política de Privacidade</h1>
+    <p class="subtitle">Última atualização: 23 de março de 2026</p>
+
+    <p>
+      Bem-vindo ao <strong>Quiddo</strong>. Esta Política de Privacidade descreve como coletamos,
+      usamos, armazenamos e protegemos as informações dos usuários ao utilizar nosso aplicativo.
+      Ao criar uma conta ou usar o Quiddo, você concorda com as práticas descritas neste documento.
+    </p>
+
+    <h2>1. Informações que coletamos</h2>
+    <p>Coletamos apenas os dados necessários para o funcionamento do aplicativo:</p>
+    <ul>
+      <li><strong>Nome completo</strong> — fornecido durante o cadastro.</li>
+      <li><strong>Endereço de e-mail</strong> — usado para identificação e autenticação.</li>
+      <li><strong>Dados de autenticação Google</strong> — token de acesso obtido via Google Sign-In, quando o usuário opta por esse método.</li>
+      <li><strong>Preferência de idioma</strong> — armazenada para personalizar a experiência.</li>
+      <li><strong>Dados de jogo</strong> — histórico de partidas, estatísticas de desempenho (cartas respondidas, dicas usadas, tempo de resposta), e progresso das rodadas em curso.</li>
+    </ul>
+    <p>Não coletamos localização, contatos, câmera, microfone, dados de saúde nem qualquer outra informação sensível.</p>
+
+    <h2>2. Como usamos suas informações</h2>
+    <ul>
+      <li>Criar e gerenciar sua conta de usuário.</li>
+      <li>Salvar e exibir seu histórico de partidas e estatísticas de desempenho.</li>
+      <li>Gerar cartas de adivinhação personalizadas usando Inteligência Artificial (Google Gemini), com base em temas e dificuldades escolhidos pelo próprio usuário.</li>
+      <li>Manter a sessão ativa e sincronizar o progresso entre dispositivos.</li>
+      <li>Permitir a seleção e persistência do idioma preferido.</li>
+    </ul>
+
+    <h2>3. Compartilhamento de dados com terceiros</h2>
+    <p>O Quiddo não vende, aluga nem compartilha seus dados pessoais com fins comerciais. Os únicos terceiros que recebem dados são:</p>
+    <ul>
+      <li>
+        <strong>Supabase</strong> — plataforma de backend que armazena perfis de usuário, histórico e estatísticas.
+        Saiba mais em <a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a>.
+      </li>
+      <li>
+        <strong>Google Sign-In (OAuth2)</strong> — utilizado apenas quando o usuário opta por fazer login com sua conta Google.
+        Saiba mais em <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
+      </li>
+      <li>
+        <strong>Google Gemini (IA Generativa)</strong> — os temas, dificuldades e parâmetros escolhidos pelo usuário para geração de cartas são enviados à API do Gemini. Nenhum dado pessoal identificável é incluído nessas requisições.
+        Saiba mais em <a href="https://ai.google.dev/terms" target="_blank" rel="noopener">ai.google.dev/terms</a>.
+      </li>
+    </ul>
+    <p>Não utilizamos redes de anúncios, ferramentas de rastreamento comportamental nem serviços de analytics de terceiros.</p>
+
+    <h2>4. Armazenamento de dados</h2>
+    <ul>
+      <li><strong>Remoto (Supabase):</strong> perfil de usuário, histórico de partidas e estatísticas são armazenados em servidores seguros da Supabase.</li>
+      <li><strong>Local (dispositivo):</strong> o progresso da rodada em andamento (cartas e dicas já reveladas) é salvo localmente no dispositivo usando armazenamento isolado do aplicativo. Nenhum dado pessoal é armazenado localmente.</li>
+    </ul>
+
+    <h2>5. Segurança</h2>
+    <p>
+      Adotamos medidas técnicas e organizacionais para proteger seus dados, incluindo:
+    </p>
+    <ul>
+      <li>Comunicação criptografada via HTTPS/TLS em todas as requisições de rede.</li>
+      <li>Senhas nunca armazenadas em texto simples — gerenciadas exclusivamente pela Supabase com hashing seguro.</li>
+      <li>Autenticação baseada em tokens com tempo de expiração.</li>
+    </ul>
+
+    <h2>6. Retenção de dados</h2>
+    <p>
+      Seus dados são mantidos enquanto sua conta estiver ativa. Caso deseje excluir sua conta e todos os dados associados,
+      entre em contato conosco pelo e-mail indicado na seção de contato. A exclusão será processada em até 30 dias.
+    </p>
+
+    <h2>7. Seus direitos</h2>
+    <p>Você tem o direito de:</p>
+    <ul>
+      <li>Acessar os dados pessoais que armazenamos sobre você.</li>
+      <li>Solicitar a correção de dados incorretos.</li>
+      <li>Solicitar a exclusão de sua conta e de todos os dados associados.</li>
+      <li>Revogar o consentimento para o uso de seus dados, encerrando o uso do aplicativo.</li>
+    </ul>
+    <p>Para exercer qualquer um desses direitos, entre em contato pelo e-mail listado abaixo.</p>
+
+    <h2>8. Crianças</h2>
+    <p>
+      O Quiddo não é direcionado a crianças menores de 13 anos. Não coletamos intencionalmente dados de crianças.
+      Caso identifique que uma criança forneceu dados sem consentimento dos responsáveis, entre em contato conosco para que os dados sejam removidos imediatamente.
+    </p>
+
+    <h2>9. Alterações nesta política</h2>
+    <p>
+      Podemos atualizar esta política periodicamente. Quando houver alterações relevantes, notificaremos os usuários
+      por meio do aplicativo. A data de "Última atualização" no topo deste documento será revisada a cada alteração.
+      O uso continuado do aplicativo após a notificação implica aceitação da nova política.
+    </p>
+
+    <h2>10. Contato</h2>
+    <p>
+      Se você tiver dúvidas, solicitações ou preocupações sobre esta Política de Privacidade, entre em contato:
+    </p>
+    <ul>
+      <li><strong>E-mail:</strong> <a href="mailto:contato@quiddo.app">contato@quiddo.app</a></li>
+    </ul>
+  </div>
+
+  <!-- ===== ENGLISH ===== -->
+  <div id="en" style="margin-top: 64px; border-top: 2px solid #eee; padding-top: 48px;">
+    <div class="lang-toggle"><a href="#pt">Ver em Português</a></div>
+
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Last updated: March 23, 2026</p>
+
+    <p>
+      Welcome to <strong>Quiddo</strong>. This Privacy Policy explains how we collect, use, store, and protect
+      user information when you use our application. By creating an account or using Quiddo, you agree to the
+      practices described in this document.
+    </p>
+
+    <h2>1. Information We Collect</h2>
+    <p>We only collect data necessary for the app to function:</p>
+    <ul>
+      <li><strong>Full name</strong> — provided during registration.</li>
+      <li><strong>Email address</strong> — used for identification and authentication.</li>
+      <li><strong>Google authentication data</strong> — access token obtained via Google Sign-In, when the user chooses that method.</li>
+      <li><strong>Language preference</strong> — stored to personalize the experience.</li>
+      <li><strong>Game data</strong> — match history, performance statistics (cards answered, hints used, response time), and current round progress.</li>
+    </ul>
+    <p>We do not collect location, contacts, camera, microphone, health data, or any other sensitive information.</p>
+
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+      <li>Create and manage your user account.</li>
+      <li>Save and display your match history and performance statistics.</li>
+      <li>Generate custom riddle cards using Artificial Intelligence (Google Gemini), based on themes and difficulty levels chosen by the user.</li>
+      <li>Maintain active sessions and sync progress across devices.</li>
+      <li>Persist and apply your preferred language setting.</li>
+    </ul>
+
+    <h2>3. Data Sharing with Third Parties</h2>
+    <p>Quiddo does not sell, rent, or share your personal data for commercial purposes. The only third parties that receive data are:</p>
+    <ul>
+      <li>
+        <strong>Supabase</strong> — backend platform that stores user profiles, history, and statistics.
+        Learn more at <a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a>.
+      </li>
+      <li>
+        <strong>Google Sign-In (OAuth2)</strong> — used only when the user chooses to log in with their Google account.
+        Learn more at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
+      </li>
+      <li>
+        <strong>Google Gemini (Generative AI)</strong> — themes, difficulty levels, and parameters chosen by the user for card generation are sent to the Gemini API. No personally identifiable information is included in these requests.
+        Learn more at <a href="https://ai.google.dev/terms" target="_blank" rel="noopener">ai.google.dev/terms</a>.
+      </li>
+    </ul>
+    <p>We do not use ad networks, behavioral tracking tools, or third-party analytics services.</p>
+
+    <h2>4. Data Storage</h2>
+    <ul>
+      <li><strong>Remote (Supabase):</strong> user profile, match history, and statistics are stored on Supabase's secure servers.</li>
+      <li><strong>Local (device):</strong> current round progress (revealed cards and hints) is saved locally on the device using app-sandboxed storage. No personal data is stored locally.</li>
+    </ul>
+
+    <h2>5. Security</h2>
+    <p>We implement technical and organizational measures to protect your data, including:</p>
+    <ul>
+      <li>Encrypted communication via HTTPS/TLS on all network requests.</li>
+      <li>Passwords are never stored in plain text — managed exclusively by Supabase with secure hashing.</li>
+      <li>Token-based authentication with expiration.</li>
+    </ul>
+
+    <h2>6. Data Retention</h2>
+    <p>
+      Your data is retained while your account is active. To delete your account and all associated data,
+      contact us at the email listed in the Contact section. Deletion will be processed within 30 days.
+    </p>
+
+    <h2>7. Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Access the personal data we store about you.</li>
+      <li>Request correction of inaccurate data.</li>
+      <li>Request deletion of your account and all associated data.</li>
+      <li>Withdraw consent by discontinuing use of the application.</li>
+    </ul>
+    <p>To exercise any of these rights, contact us at the email listed below.</p>
+
+    <h2>8. Children</h2>
+    <p>
+      Quiddo is not directed at children under the age of 13. We do not knowingly collect data from children.
+      If you believe a child has provided data without parental consent, please contact us so the data can be removed immediately.
+    </p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>
+      We may update this policy periodically. When significant changes occur, we will notify users through the application.
+      The "Last updated" date at the top of this document will be revised with each change.
+      Continued use of the application after notification implies acceptance of the updated policy.
+    </p>
+
+    <h2>10. Contact</h2>
+    <p>If you have questions, requests, or concerns regarding this Privacy Policy, please contact us:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:contato@quiddo.app">contato@quiddo.app</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2026 Quiddo. Todos os direitos reservados / All rights reserved.
+  </footer>
+
+</div>
+</body>
+</html>
